@@ -1,0 +1,253 @@
+body {
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+
+/* Affects Navigation Bar attributions */
+
+nav {
+    background-color: #f5f6f4;
+    margin: auto;
+    color: #000000;
+}
+
+nav a {
+    color: #000000;
+}
+
+#navbarNav a {
+    color: #000000;
+}
+
+#navbarNav a:hover {
+    color: #fecf0b;
+}
+
+/* Alters "Showcase" header thats on top of every page */
+
+.showcase {
+    background-image: url(../img/showcase-pattern.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #f5f6f4;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* Alters the boxes containing main content seen on the Index and Portfolio Page */
+
+.box {
+    box-sizing: border-box;
+    border: 20px solid transparent;
+    background-clip:padding-box;
+    background-color: #f6f8f8; 
+    border-radius: 45px;
+    align-items: center;
+    padding: 25px;
+}
+
+.box-accent {
+    box-sizing: border-box;
+    border: 20px solid transparent;
+    background-clip:padding-box;
+    background-color: #fecf0b; 
+    border-radius: 45px;
+    padding: 25px;
+}
+
+
+/* Alters the cards containing main content seen on Design page */
+
+.card {
+    border-radius: 45px;
+    height: 100%;
+    border: 0px transparent;
+}
+
+
+
+/* portfolio*/
+#portfolio .portfolio-item {
+    max-width: 21.875rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #portfolio .portfolio-img {
+    border-radius: 45px;
+  }
+
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 200, 0, 0.9);
+    border-radius: 45px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+  }
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 2rem;
+    color: white;
+  }
+  #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+    opacity: 1;
+  }
+  #portfolio .portfolio-item .portfolio-caption {
+
+    text-align: center;
+    background-color: #fff;
+  }
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 1.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  .portfolio-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+  }
+  .portfolio-modal .modal-content {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+  }
+  .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .portfolio-modal .modal-content p.item-intro {
+    font-style: italic;
+    margin-bottom: 2rem;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  .portfolio-modal .modal-content p {
+    margin-bottom: 2rem;
+  }
+  .portfolio-modal .modal-content ul.list-inline {
+    margin-bottom: 2rem;
+  }
+  .portfolio-modal .modal-content img {
+    margin-bottom: 2rem;
+  }
+  .portfolio-modal .close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  .portfolio-modal .close-modal:hover {
+    opacity: 0.3;
+  }
+
+/* Controls the way the general Footer and its links are displayed */
+
+
+.footer {
+   background-color: #000000;
+   color: #f6f8f8; 
+   margin: auto;
+   text-align: center;
+   padding: 10px 0px 5px;
+   overflow: hidden;
+}
+
+.footer a {
+    color: #f6f8f8;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fecf0b;
+}
+
+
+/* Alters the links within the main content of the Sitemap page*/
+
+.sitemap a {
+    font-size: 22px;
+    color: #000000; 
+    text-decoration: none;
+}
+
+.sitemap a:hover {
+    font-size: 22px;
+    color: #fecf0b;
+}
+
+
+/* Definitions for all the Header attributions*/
+
+
+h1 {
+    text-align: center;
+    font-size: 600%;
+    font-style: bold;
+    color: #f5f6f4;
+    text-shadow: 1px 1px 10px #000000;
+}
+
+h2 {
+    font-size: 400%;
+    font-style: bold;
+    color: #f5f6f4;
+    text-shadow: 1px 1px 10px #000000;
+}
+
+h3 {
+    text-align: center;
+    font-size: 300%;
+    font-style: bold;
+    color: #f6f8f8; 
+    text-shadow: 1px 1px 10px #000000;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    color: #f6f8f8; 
+    text-shadow: 1px 1px 10px #000000;
+}
+
+h5 {
+    font-size: 30px;
+    font-style: bold;
+    color: #000000;
+}
+
+h6 {
+    font-style: bold;
+    color: #000000;
+}
+
+/* General attributions for links with no class */
+
+a {
+    color: #f6f8f8;
+}
+
+a:hover {
+    color: #fecf0b;
+}
