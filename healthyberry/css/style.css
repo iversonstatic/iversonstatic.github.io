@@ -5,13 +5,14 @@ body {
   background-image: url(../img/background-pattern.png);
   background-size: 50%;
   background-repeat: repeat;
-  font-family: 'Calder LC', sans-serif;
+  font-family: 'calder-lc', sans-serif;
   font-size: 17pt;
   color: #fff;
 }
 
 h1, h2, h3 {
-  font-family: 'Social Gothic Demibold';
+  font-family: 'social-gothic', sans-serif;
+  font-weight: 700;
   color: #fff;
 }
 
@@ -29,7 +30,8 @@ h3 {
 }
 
 h4 {
-  font-family: 'Social Gothic Medium';
+  font-family: 'social-gothic', sans-serif;
+  font-weight: 600;
   font-size: 17pt;
   color: #ff7f3f;
   letter-spacing: .05em;
@@ -158,7 +160,8 @@ hr {
 /* Navigation */
 nav {
   background-color: #95C843;
-  font-family: 'Social Gothic Medium';
+  font-family: 'social-gothic', sans-serif;
+  font-weight: 600;
   font-size: 17pt;
   color: #fff;
   margin: auto;
@@ -192,30 +195,30 @@ nav {
 @media (min-width: 301px) and (max-width: 767px) {
   #about {
     background-image: url("../img/about-background-sm.png");
-	background-color: #ff7f3f;
+	  background-color: #ff7f3f;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-	height: 90vh;
+	  height: 90vh;
   }
 .ourStory {
     margin-top: 3rem;
-	padding: 2rem;
+	  padding: 2rem;
   }
 }
 
 @media (min-width: 768px) {
   #about {
     background-image: url("../img/about-background-lg.png");
-	background-color: #ff7f3f;
+	  background-color: #ff7f3f;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-	height: 525px;
+	  height: 525px;
   }
 .ourStory {
     margin-top: 2rem;
-	padding: 1rem;
+	  padding: 1rem;
   }
 }
 
