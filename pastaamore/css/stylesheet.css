@@ -185,7 +185,8 @@ nav a {
 
 @media (max-width: 767px) {
     #divider-restaurant {
-        background-size: 1200px;
+        background-size: 800px;
+        background-attachment: scroll;
     }
 }
 
@@ -229,6 +230,7 @@ nav a {
 @media (max-width: 767px) {
   #heroMenu {
       background-size: 1200px;
+      background-attachment: scroll;
   }
 }
 
