@@ -242,8 +242,8 @@ nav {
   color: #ffb72b;
 }
 
-.mainSmoothie {
-  width: 350px;
+.unleashed img{
+  max-width: 500px;
 }
 
 @media (min-width: 301px) and (max-width: 768px) {
