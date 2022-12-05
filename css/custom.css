@@ -122,16 +122,11 @@ nav a {
     padding: 25px;
 }
 
-
-/* Alters the cards containing main content seen on Design page */
-
 .card {
     border-radius: 45px;
     height: 100%;
     border: 0px transparent;
 }
-
-
 
 /* portfolio*/
 #portfolio .portfolio-item {
